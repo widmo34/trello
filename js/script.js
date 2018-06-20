@@ -131,11 +131,12 @@ board.addColumn(doneColumn);
 // CREATING CARDS
 var card1 = new Card('New task');
 var card2 = new Card('Create kanban boards')
+var card3 = new Card('Dinner is ready')
 
 // ADDING CARDS TO COLUMNS
 todoColumn.addCard(card1);
 doingColumn.addCard(card2);
-
+doneColumn.addCard(card3)
 
 
 });
